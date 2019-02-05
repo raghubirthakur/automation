@@ -3,7 +3,7 @@ from fabric.contrib import files
 
 env.hosts = ["127.0.0.1"]
 env.user = "ec2-user"
-env.key_filename = "/home/ubuntu/prince-betaout.pem"
+env.key_filename = "/home/ubuntu/raghubir.pem"
 
 def osbasics():
 	sudo("yum install -y yum-plugin-fastestmirror.noarch")
